@@ -1,0 +1,10 @@
+<%- include("./layout.ejs") %>
+  <h1><%= title %></h1>
+  <form method="POST" action="/new">
+    <label for="user_name">Author:<br><input type="text" name="user" id="user_name"></label><br>
+    <label for="message_text">Message:<br><input type="text" name="messageTxt" id="message_text"></label><br><br>
+    <button type="submit">Send</button>
+ </form> 
+</body>
+
+</html>
